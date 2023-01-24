@@ -1,0 +1,11 @@
+@mixin generateIcons($iconList) {
+  @each $iconName in $iconList {
+    .icon-#{$iconName} {
+      background-image: url('.../images/svg/symbol-defs.svg#icon-$iconName');
+    }
+  }
+}
+
+.icon-#{$iconName} {
+  @include generateIcons($social-icons);
+}

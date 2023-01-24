@@ -1,0 +1,17 @@
+@import './base/reset-styles.scss';
+@import './base/common.scss';
+@import './base/vars.scss';
+
+@import './utils/mixins.scss';
+@import './utils/placeholders.scss';
+
+@import './components/page-header.scss';
+@import './components/hero.scss';
+@import './components/features.scss';
+@import './components/activity.scss';
+@import './components/team.scss';
+@import './components/clients.scss';
+@import './components/portfolio-sorting-btns.scss';
+@import './components/portfolio-works.scss';
+@import './components/modal.scss';
+@import './components/page-footer.scss';
